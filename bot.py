@@ -445,24 +445,8 @@ def main():
     )
 
     app.add_handler(conv_handler)
-
-    # Check if running in GitHub Actions with a single update
-    telegram_update = os.environ.get("TELEGRAM_UPDATE")
-    if telegram_update:
-        import asyncio
-        import json
-        logger.info("Processing single update from GitHub Actions...")
-        async def process_single_update():
-            update_data = json.loads(telegram_update)
-            update = Update.de_json(update_data, app.bot)
-            await app.initialize()
-            await app.process_update(update)
-            # Keep running to handle conversation
-            await app.run_polling(allowed_updates=Update.ALL_TYPES)
-        asyncio.run(process_single_update())
-    else:
-        logger.info("Bot running in polling mode!")
-        app.run_polling(allowed_updates=Update.ALL_TYPES)
+    logger.info("Bot running in polling mode!")
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == "__main__":
     main()
