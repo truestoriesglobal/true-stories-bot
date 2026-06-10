@@ -18,7 +18,7 @@ from google.oauth2.credentials import Credentials
 # ============================================================
 # CONFIGURATION
 # ============================================================
-TELEGRAM_BOT_TOKEN = "8947464641:AAH7k-rhp0hel_ysA9dACmKkZJZB9kUP2Yg"
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8947464641:AAH7k-rhp0hel_ysA9dACmKkZJZB9kUP2Yg")
 TELEGRAM_CHANNEL_ID = -1003919101691
 YOUTUBE_SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
 CLIENT_SECRETS_FILE = "client_secrets.json"
@@ -30,7 +30,13 @@ if os.environ.get("YOUTUBE_CLIENT_SECRETS"):
         f.write(os.environ["YOUTUBE_CLIENT_SECRETS"])
 
 if os.environ.get("YOUTUBE_TOKEN"):
-    token_data = base64.b64decode(os.environ["YOUTUBE_TOKEN"])
+    token_str = os.environ["YOUTUBE_TOKEN"]
+    # Fix base64 padding
+    token_str = token_str.strip()
+    padding = 4 - len(token_str) % 4
+    if padding != 4:
+        token_str += "=" * padding
+    token_data = base64.b64decode(token_str)
     with open(TOKEN_PICKLE_FILE, "wb") as f:
         f.write(token_data)
 # ============================================================
@@ -439,9 +445,24 @@ def main():
     )
 
     app.add_handler(conv_handler)
-    logger.info("Bot running! Send a video to start.")
-    app.run_polling(allowed_updates=Update.ALL_TYPES)
+
+    # Check if running in GitHub Actions with a single update
+    telegram_update = os.environ.get("TELEGRAM_UPDATE")
+    if telegram_update:
+        import asyncio
+        import json
+        logger.info("Processing single update from GitHub Actions...")
+        async def process_single_update():
+            update_data = json.loads(telegram_update)
+            update = Update.de_json(update_data, app.bot)
+            await app.initialize()
+            await app.process_update(update)
+            # Keep running to handle conversation
+            await app.run_polling(allowed_updates=Update.ALL_TYPES)
+        asyncio.run(process_single_update())
+    else:
+        logger.info("Bot running in polling mode!")
+        app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == "__main__":
     main()
-
