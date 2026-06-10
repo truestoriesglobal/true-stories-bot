@@ -1,6 +1,5 @@
 name: True Stories Bot
 
-
 on:
   repository_dispatch:
     types: [telegram_update]
@@ -11,10 +10,10 @@ jobs:
     timeout-minutes: 360
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -25,7 +24,9 @@ jobs:
         run: echo '${{ secrets.YOUTUBE_CLIENT_SECRETS }}' > client_secrets.json
 
       - name: Create token file
-        run: echo '${{ secrets.YOUTUBE_TOKEN }}' | base64 -d > youtube_token.pickle
+        run: |
+          echo '${{ secrets.YOUTUBE_TOKEN }}' | tr -d '\n' | tr -d ' ' > token_b64.txt
+          base64 -d token_b64.txt > youtube_token.pickle
 
       - name: Run bot
         env:
