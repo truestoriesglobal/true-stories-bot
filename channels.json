@@ -1,0 +1,245 @@
+{
+  "channels": {
+
+    "English True Stories": {
+      "niche": "true_stories", "language": "en", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_EN",
+      "platforms": {
+        "youtube":          {"enabled": true,  "token_secret": "YOUTUBE_TOKEN_EN"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_EN",    "page_id_secret": "FACEBOOK_PAGE_ID_EN"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_EN"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_EN",   "account_id_secret": "INSTAGRAM_ACCOUNT_ID_EN"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_EN"},
+        "linkedin":         {"enabled": false, "token_secret": "LINKEDIN_TOKEN_EN"},
+        "pinterest":        {"enabled": false, "token_secret": "PINTEREST_TOKEN_EN"},
+        "snapchat":         {"enabled": false, "token_secret": "SNAPCHAT_TOKEN_EN"},
+        "threads":          {"enabled": false, "token_secret": "THREADS_TOKEN_EN"},
+        "bluesky":          {"enabled": false, "token_secret": "BLUESKY_TOKEN_EN"},
+        "rumble":           {"enabled": false, "token_secret": "RUMBLE_TOKEN_EN"},
+        "dailymotion":      {"enabled": false, "token_secret": "DAILYMOTION_TOKEN_EN"},
+        "odysee":           {"enabled": false, "token_secret": "ODYSEE_TOKEN_EN"},
+        "vk":               {"enabled": false, "token_secret": "VK_TOKEN_EN"},
+        "ok_ru":            {"enabled": false, "token_secret": "OKRU_TOKEN_EN"},
+        "telegram_channel": {"enabled": false, "channel_id_secret": "TELEGRAM_CHANNEL_ID_EN"},
+        "triller":          {"enabled": false, "token_secret": "TRILLER_TOKEN_EN"},
+        "clapper":          {"enabled": false, "token_secret": "CLAPPER_TOKEN_EN"},
+        "kwai":             {"enabled": false, "token_secret": "KWAI_TOKEN_EN"},
+        "likee":            {"enabled": false, "token_secret": "LIKEE_TOKEN_EN"},
+        "lemon8":           {"enabled": false, "token_secret": "LEMON8_TOKEN_EN"},
+        "josh":             {"enabled": false, "token_secret": "JOSH_TOKEN_EN"},
+        "moj":              {"enabled": false, "token_secret": "MOJ_TOKEN_EN"},
+        "sharechat":        {"enabled": false, "token_secret": "SHARECHAT_TOKEN_EN"},
+        "chingari":         {"enabled": false, "token_secret": "CHINGARI_TOKEN_EN"},
+        "bigolive":         {"enabled": false, "token_secret": "BIGOLIVE_TOKEN_EN"},
+        "kakao_tv":         {"enabled": false, "token_secret": "KAKAOTV_TOKEN_EN"},
+        "naver_tv":         {"enabled": false, "token_secret": "NAVERTV_TOKEN_EN"},
+        "rednote":          {"enabled": false, "token_secret": "REDNOTE_TOKEN_EN"}
+      }
+    },
+
+    "Urdu True Stories": {
+      "niche": "true_stories", "language": "ur", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_UR",
+      "platforms": {
+        "youtube":          {"enabled": false, "token_secret": "YOUTUBE_TOKEN_UR"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_UR",    "page_id_secret": "FACEBOOK_PAGE_ID_UR"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_UR"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_UR"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_UR"},
+        "snapchat":         {"enabled": false, "token_secret": "SNAPCHAT_TOKEN_UR"},
+        "threads":          {"enabled": false, "token_secret": "THREADS_TOKEN_UR"},
+        "bluesky":          {"enabled": false, "token_secret": "BLUESKY_TOKEN_UR"},
+        "rumble":           {"enabled": false, "token_secret": "RUMBLE_TOKEN_UR"},
+        "dailymotion":      {"enabled": false, "token_secret": "DAILYMOTION_TOKEN_UR"},
+        "telegram_channel": {"enabled": false, "channel_id_secret": "TELEGRAM_CHANNEL_ID_UR"},
+        "vk":               {"enabled": false, "token_secret": "VK_TOKEN_UR"},
+        "ok_ru":            {"enabled": false, "token_secret": "OKRU_TOKEN_UR"},
+        "kwai":             {"enabled": false, "token_secret": "KWAI_TOKEN_UR"},
+        "likee":            {"enabled": false, "token_secret": "LIKEE_TOKEN_UR"},
+        "josh":             {"enabled": false, "token_secret": "JOSH_TOKEN_UR"},
+        "moj":              {"enabled": false, "token_secret": "MOJ_TOKEN_UR"},
+        "sharechat":        {"enabled": false, "token_secret": "SHARECHAT_TOKEN_UR"},
+        "chingari":         {"enabled": false, "token_secret": "CHINGARI_TOKEN_UR"},
+        "bigolive":         {"enabled": false, "token_secret": "BIGOLIVE_TOKEN_UR"},
+        "rednote":          {"enabled": false, "token_secret": "REDNOTE_TOKEN_UR"}
+      }
+    },
+
+    "Korean True Stories": {
+      "niche": "true_stories", "language": "kr", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_KR",
+      "platforms": {
+        "youtube":          {"enabled": false, "token_secret": "YOUTUBE_TOKEN_KR"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_KR",    "page_id_secret": "FACEBOOK_PAGE_ID_KR"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_KR"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_KR"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_KR"},
+        "threads":          {"enabled": false, "token_secret": "THREADS_TOKEN_KR"},
+        "bluesky":          {"enabled": false, "token_secret": "BLUESKY_TOKEN_KR"},
+        "rumble":           {"enabled": false, "token_secret": "RUMBLE_TOKEN_KR"},
+        "dailymotion":      {"enabled": false, "token_secret": "DAILYMOTION_TOKEN_KR"},
+        "telegram_channel": {"enabled": false, "channel_id_secret": "TELEGRAM_CHANNEL_ID_KR"},
+        "kakao_tv":         {"enabled": false, "token_secret": "KAKAOTV_TOKEN_KR"},
+        "naver_tv":         {"enabled": false, "token_secret": "NAVERTV_TOKEN_KR"},
+        "rednote":          {"enabled": false, "token_secret": "REDNOTE_TOKEN_KR"},
+        "lemon8":           {"enabled": false, "token_secret": "LEMON8_TOKEN_KR"},
+        "kwai":             {"enabled": false, "token_secret": "KWAI_TOKEN_KR"},
+        "likee":            {"enabled": false, "token_secret": "LIKEE_TOKEN_KR"}
+      }
+    },
+
+    "HAQ Institute English": {
+      "niche": "islamic_education", "language": "en", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_HAQ_EN",
+      "platforms": {
+        "youtube":          {"enabled": false, "token_secret": "YOUTUBE_TOKEN_HAQ_EN"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_HAQ_EN", "page_id_secret": "FACEBOOK_PAGE_ID_HAQ_EN"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_HAQ_EN"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_HAQ_EN"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_HAQ_EN"},
+        "linkedin":         {"enabled": false, "token_secret": "LINKEDIN_TOKEN_HAQ_EN"},
+        "pinterest":        {"enabled": false, "token_secret": "PINTEREST_TOKEN_HAQ_EN"},
+        "threads":          {"enabled": false, "token_secret": "THREADS_TOKEN_HAQ_EN"},
+        "bluesky":          {"enabled": false, "token_secret": "BLUESKY_TOKEN_HAQ_EN"},
+        "rumble":           {"enabled": false, "token_secret": "RUMBLE_TOKEN_HAQ_EN"},
+        "dailymotion":      {"enabled": false, "token_secret": "DAILYMOTION_TOKEN_HAQ_EN"},
+        "odysee":           {"enabled": false, "token_secret": "ODYSEE_TOKEN_HAQ_EN"},
+        "telegram_channel": {"enabled": false, "channel_id_secret": "TELEGRAM_CHANNEL_ID_HAQ_EN"},
+        "vk":               {"enabled": false, "token_secret": "VK_TOKEN_HAQ_EN"}
+      }
+    },
+
+    "HAQ Institute Urdu": {
+      "niche": "islamic_education", "language": "ur", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_HAQ_UR",
+      "platforms": {
+        "youtube":          {"enabled": false, "token_secret": "YOUTUBE_TOKEN_HAQ_UR"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_HAQ_UR", "page_id_secret": "FACEBOOK_PAGE_ID_HAQ_UR"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_HAQ_UR"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_HAQ_UR"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_HAQ_UR"},
+        "threads":          {"enabled": false, "token_secret": "THREADS_TOKEN_HAQ_UR"},
+        "bluesky":          {"enabled": false, "token_secret": "BLUESKY_TOKEN_HAQ_UR"},
+        "rumble":           {"enabled": false, "token_secret": "RUMBLE_TOKEN_HAQ_UR"},
+        "dailymotion":      {"enabled": false, "token_secret": "DAILYMOTION_TOKEN_HAQ_UR"},
+        "telegram_channel": {"enabled": false, "channel_id_secret": "TELEGRAM_CHANNEL_ID_HAQ_UR"},
+        "sharechat":        {"enabled": false, "token_secret": "SHARECHAT_TOKEN_HAQ_UR"},
+        "moj":              {"enabled": false, "token_secret": "MOJ_TOKEN_HAQ_UR"},
+        "josh":             {"enabled": false, "token_secret": "JOSH_TOKEN_HAQ_UR"},
+        "chingari":         {"enabled": false, "token_secret": "CHINGARI_TOKEN_HAQ_UR"}
+      }
+    },
+
+    "HAQ Institute Arabic": {
+      "niche": "islamic_education", "language": "ar", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_HAQ_AR",
+      "platforms": {
+        "youtube":          {"enabled": false, "token_secret": "YOUTUBE_TOKEN_HAQ_AR"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_HAQ_AR", "page_id_secret": "FACEBOOK_PAGE_ID_HAQ_AR"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_HAQ_AR"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_HAQ_AR"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_HAQ_AR"},
+        "threads":          {"enabled": false, "token_secret": "THREADS_TOKEN_HAQ_AR"},
+        "dailymotion":      {"enabled": false, "token_secret": "DAILYMOTION_TOKEN_HAQ_AR"},
+        "rumble":           {"enabled": false, "token_secret": "RUMBLE_TOKEN_HAQ_AR"},
+        "telegram_channel": {"enabled": false, "channel_id_secret": "TELEGRAM_CHANNEL_ID_HAQ_AR"}
+      }
+    },
+
+    "Cleaning Business English": {
+      "niche": "cleaning", "language": "en", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_CLEAN_EN",
+      "platforms": {
+        "youtube":          {"enabled": false, "token_secret": "YOUTUBE_TOKEN_CLEAN_EN"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_CLEAN_EN", "page_id_secret": "FACEBOOK_PAGE_ID_CLEAN_EN"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_CLEAN_EN"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_CLEAN_EN"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_CLEAN_EN"},
+        "linkedin":         {"enabled": false, "token_secret": "LINKEDIN_TOKEN_CLEAN_EN"},
+        "pinterest":        {"enabled": false, "token_secret": "PINTEREST_TOKEN_CLEAN_EN"},
+        "snapchat":         {"enabled": false, "token_secret": "SNAPCHAT_TOKEN_CLEAN_EN"},
+        "threads":          {"enabled": false, "token_secret": "THREADS_TOKEN_CLEAN_EN"},
+        "bluesky":          {"enabled": false, "token_secret": "BLUESKY_TOKEN_CLEAN_EN"},
+        "rumble":           {"enabled": false, "token_secret": "RUMBLE_TOKEN_CLEAN_EN"},
+        "dailymotion":      {"enabled": false, "token_secret": "DAILYMOTION_TOKEN_CLEAN_EN"},
+        "lemon8":           {"enabled": false, "token_secret": "LEMON8_TOKEN_CLEAN_EN"}
+      }
+    },
+
+    "Cleaning Business Urdu": {
+      "niche": "cleaning", "language": "ur", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_CLEAN_UR",
+      "platforms": {
+        "youtube":          {"enabled": false, "token_secret": "YOUTUBE_TOKEN_CLEAN_UR"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_CLEAN_UR", "page_id_secret": "FACEBOOK_PAGE_ID_CLEAN_UR"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_CLEAN_UR"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_CLEAN_UR"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_CLEAN_UR"},
+        "dailymotion":      {"enabled": false, "token_secret": "DAILYMOTION_TOKEN_CLEAN_UR"},
+        "sharechat":        {"enabled": false, "token_secret": "SHARECHAT_TOKEN_CLEAN_UR"},
+        "moj":              {"enabled": false, "token_secret": "MOJ_TOKEN_CLEAN_UR"},
+        "josh":             {"enabled": false, "token_secret": "JOSH_TOKEN_CLEAN_UR"},
+        "chingari":         {"enabled": false, "token_secret": "CHINGARI_TOKEN_CLEAN_UR"}
+      }
+    },
+
+    "Cleaning Business Korean": {
+      "niche": "cleaning", "language": "kr", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_CLEAN_KR",
+      "platforms": {
+        "youtube":          {"enabled": false, "token_secret": "YOUTUBE_TOKEN_CLEAN_KR"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_CLEAN_KR"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_CLEAN_KR"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_CLEAN_KR"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_CLEAN_KR"},
+        "kakao_tv":         {"enabled": false, "token_secret": "KAKAOTV_TOKEN_CLEAN_KR"},
+        "naver_tv":         {"enabled": false, "token_secret": "NAVERTV_TOKEN_CLEAN_KR"}
+      }
+    },
+
+    "Family Vlogs English": {
+      "niche": "family", "language": "en", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_FAM_EN",
+      "platforms": {
+        "youtube":          {"enabled": false, "token_secret": "YOUTUBE_TOKEN_FAM_EN"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_FAM_EN", "page_id_secret": "FACEBOOK_PAGE_ID_FAM_EN"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_FAM_EN"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_FAM_EN"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_FAM_EN"},
+        "snapchat":         {"enabled": false, "token_secret": "SNAPCHAT_TOKEN_FAM_EN"},
+        "pinterest":        {"enabled": false, "token_secret": "PINTEREST_TOKEN_FAM_EN"},
+        "threads":          {"enabled": false, "token_secret": "THREADS_TOKEN_FAM_EN"},
+        "bluesky":          {"enabled": false, "token_secret": "BLUESKY_TOKEN_FAM_EN"},
+        "rumble":           {"enabled": false, "token_secret": "RUMBLE_TOKEN_FAM_EN"},
+        "dailymotion":      {"enabled": false, "token_secret": "DAILYMOTION_TOKEN_FAM_EN"},
+        "linkedin":         {"enabled": false, "token_secret": "LINKEDIN_TOKEN_FAM_EN"},
+        "lemon8":           {"enabled": false, "token_secret": "LEMON8_TOKEN_FAM_EN"},
+        "clapper":          {"enabled": false, "token_secret": "CLAPPER_TOKEN_FAM_EN"},
+        "odysee":           {"enabled": false, "token_secret": "ODYSEE_TOKEN_FAM_EN"}
+      }
+    },
+
+    "Family Vlogs Urdu": {
+      "niche": "family", "language": "ur", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_FAM_UR",
+      "platforms": {
+        "youtube":          {"enabled": false, "token_secret": "YOUTUBE_TOKEN_FAM_UR"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_FAM_UR", "page_id_secret": "FACEBOOK_PAGE_ID_FAM_UR"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_FAM_UR"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_FAM_UR"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_FAM_UR"},
+        "telegram_channel": {"enabled": false, "channel_id_secret": "TELEGRAM_CHANNEL_ID_FAM_UR"},
+        "dailymotion":      {"enabled": false, "token_secret": "DAILYMOTION_TOKEN_FAM_UR"},
+        "sharechat":        {"enabled": false, "token_secret": "SHARECHAT_TOKEN_FAM_UR"},
+        "moj":              {"enabled": false, "token_secret": "MOJ_TOKEN_FAM_UR"},
+        "josh":             {"enabled": false, "token_secret": "JOSH_TOKEN_FAM_UR"},
+        "chingari":         {"enabled": false, "token_secret": "CHINGARI_TOKEN_FAM_UR"}
+      }
+    },
+
+    "Family Vlogs Korean": {
+      "niche": "family", "language": "kr", "youtube_secret": "YOUTUBE_CLIENT_SECRETS_FAM_KR",
+      "platforms": {
+        "youtube":          {"enabled": false, "token_secret": "YOUTUBE_TOKEN_FAM_KR"},
+        "facebook":         {"enabled": false, "token_secret": "FACEBOOK_TOKEN_FAM_KR"},
+        "tiktok":           {"enabled": false, "token_secret": "TIKTOK_TOKEN_FAM_KR"},
+        "instagram":        {"enabled": false, "token_secret": "INSTAGRAM_TOKEN_FAM_KR"},
+        "twitter":          {"enabled": false, "token_secret": "TWITTER_TOKEN_FAM_KR"},
+        "kakao_tv":         {"enabled": false, "token_secret": "KAKAOTV_TOKEN_FAM_KR"},
+        "naver_tv":         {"enabled": false, "token_secret": "NAVERTV_TOKEN_FAM_KR"},
+        "lemon8":           {"enabled": false, "token_secret": "LEMON8_TOKEN_FAM_KR"},
+        "rednote":          {"enabled": false, "token_secret": "REDNOTE_TOKEN_FAM_KR"}
+      }
+    }
+
+  }
+}
